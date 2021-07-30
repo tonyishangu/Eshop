@@ -121,10 +121,6 @@ const Nav = styled.nav`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
-
-
-  /* align-items: center; */
-  /* justify-content: center; */
 `;
 const H1 = styled.h1`
   font-family: cursive;
