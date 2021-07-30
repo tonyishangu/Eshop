@@ -1,9 +1,10 @@
 import React from 'react'
+import styled from 'styled-components'
 
 const Contact = () => {
     return (
         <ContactContainer>
-            
+            iojoipj
         </ContactContainer>
     )
 }
@@ -35,3 +36,4 @@ const ContactContainer = styled.div`
     padding-right: 2px;
   }
 `;
+
