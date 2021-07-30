@@ -165,7 +165,6 @@ const Input = styled.input`
   font-size: 14px;
   line-height: 1;
   background-color: transparent;
-  /* width: 100%; */
   margin-left: ${(props) => (props.barOpened ? "1rem" : "0rem")};
   border: none;
   color: white;
