@@ -126,7 +126,6 @@ const H1 = styled.h1`
   font-family: cursive;
   color: #37474f;
   padding-left: 10px;
-  /* padding-right: 10px; */
   font-size: 35px;
   ;
   @media (max-width: 576px) {
