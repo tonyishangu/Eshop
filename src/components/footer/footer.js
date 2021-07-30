@@ -3,15 +3,15 @@ import styled from 'styled-components'
 
 const footer = () => {
     return (
-        <div>
+        <FooterContainer>
             
-        </div>
+        </FooterContainer>
     )
 }
 
 export default footer
 
-const HeroContainer = styled.div`
+const FooterContainer = styled.div`
   width: 100%;
   max-width: 100%;
   min-height: 64vh;
