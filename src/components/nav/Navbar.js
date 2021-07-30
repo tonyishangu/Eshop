@@ -132,7 +132,7 @@ const H1 = styled.h1`
   padding-left: 10px;
   /* padding-right: 10px; */
   font-size: 35px;
-  );
+  ;
   @media (max-width: 576px) {
     padding-left: 3px;
     font-size: 20px;
