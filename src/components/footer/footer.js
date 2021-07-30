@@ -42,7 +42,6 @@ const FooterContainer = styled.div`
   padding-right: 50px;
   display: grid;
   grid-gap: 1rem;
-  /* align-items: center; */
   justify-content: center;
   grid-template-columns: 1fr;
   @media screen and (min-width: 960px) {
