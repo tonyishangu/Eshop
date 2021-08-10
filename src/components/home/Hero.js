@@ -20,7 +20,7 @@ const HeroContainer = styled.div`
   width: 100%;
   max-width: 100%;
   min-height: 64vh;
-  background-color: #0f1636;
+  /* background-color: #0f1636; */
   /* color: #000; */
   /* padding: 0; */
   height: 100%;

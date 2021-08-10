@@ -19,8 +19,11 @@ const footer = () => {
         </p>
         <br />
         <Querry>
-          <P2>Got Question? Call us 24/7</P2>
-          <H3>+254798567458</H3>
+          <div>
+            <P2>Got Question? Call us 24/7</P2>
+            <H3>+254798567458</H3>
+          </div>
+          <Payment></Payment>
         </Querry>
       </About>
       <Contact />
@@ -95,6 +98,27 @@ const Querry = styled.div`
   grid-template-columns: 1fr;
   @media screen and (min-width: 960px) {
     grid-template-columns: 1fr 1fr;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  @media screen and (max-width: 600px) {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+`;
+const Payment = styled.div`
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-gap: 1rem;
+  /* align-items: center; */
+  justify-content: center;
+  grid-template-columns: 1fr;
+  @media screen and (min-width: 960px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-left: 5px;
     padding-right: 5px;
   }
